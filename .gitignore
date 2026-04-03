@@ -1,0 +1,23 @@
+# Poetry-specific
+.venv/
+/poetry.toml
+/dist/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Environments (if not using Poetry's default .venv)
+env/
+venv/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
